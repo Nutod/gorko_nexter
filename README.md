@@ -1,6 +1,6 @@
-# Nexter
+# Gorko
 
-Nexter
+Trying out ideas with CUBE methodologies
 
 ## Building and running on localhost
 
