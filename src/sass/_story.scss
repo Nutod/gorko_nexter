@@ -1,0 +1,9 @@
+.story {
+  &-pictures {
+    @include apply-utility("bg", "dark");
+  }
+
+  &-testimonials {
+    @include apply-utility("bg", "primary-glare");
+  }
+}
