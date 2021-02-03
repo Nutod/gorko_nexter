@@ -1,6 +1,10 @@
 @import "reset";
 @import "config";
 
+// I suppose this import allows us to make use of dem funky functions
 @import "../../node_modules/gorko/gorko.scss";
 
+// The import structure from above really has t be followed
+
+@import "base";
 @import "typography";
