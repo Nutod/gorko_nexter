@@ -1,3 +1,5 @@
 .gallery {
   @include apply-utility("bg", "secondary");
+
+  grid-column: 2 / -1;
 }

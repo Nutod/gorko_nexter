@@ -1,3 +1,8 @@
 .features {
   @include apply-utility("bg", "secondary");
+
+  padding: get-size("700");
+
+  grid-row: 2 / 3;
+  grid-column: 2 / -1;
 }

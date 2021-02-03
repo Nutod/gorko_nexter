@@ -1,3 +1,5 @@
 .homes {
   @include apply-utility("bg", "light-shade");
+
+  grid-column: 2 / -1;
 }

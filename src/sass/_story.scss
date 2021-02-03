@@ -1,9 +1,13 @@
 .story {
   &-pictures {
     @include apply-utility("bg", "dark");
+
+    grid-column: 2 / 7;
   }
 
   &-testimonials {
     @include apply-utility("bg", "primary-glare");
+
+    grid-column: 7 / -1;
   }
 }

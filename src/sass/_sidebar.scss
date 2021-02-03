@@ -1,3 +1,6 @@
 .sidebar {
   @include apply-utility("bg", "primary");
+
+  grid-row: 1 / -1;
+  grid-column: 1 / 2;
 }

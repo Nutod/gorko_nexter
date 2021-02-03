@@ -1,3 +1,5 @@
 .footer {
-  @include apply-utility("bg", "primary");
+  @include apply-utility("bg", "primary-shade");
+
+  grid-column: 2 / -1;
 }
